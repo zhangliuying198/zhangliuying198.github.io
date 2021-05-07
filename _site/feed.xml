@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.7">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-05-07T22:49:02+08:00</updated><id>/feed.xml</id><title type="html">风华落雪燕无情</title><subtitle>你总是说世界上找不到知音，天涯不见归路，博客此处待佳人。</subtitle><entry><title type="html">learn Markdown!</title><link href="/jekyll/update/2021/05/07/learn-markdown.html" rel="alternate" type="text/html" title="learn Markdown!" /><published>2021-05-07T13:04:47+08:00</published><updated>2021-05-07T13:04:47+08:00</updated><id>/jekyll/update/2021/05/07/learn-markdown</id><content type="html" xml:base="/jekyll/update/2021/05/07/learn-markdown.html">&lt;h1 id=&quot;关于markdown&quot;&gt;关于Markdown&lt;/h1&gt;
+
+&lt;p&gt;Markdown 是一种轻量级标记语言，它允许人们使用易读易写的纯文本格式编写文档。&lt;/p&gt;
+
+&lt;p&gt;Markdown 语言在 2004 由约翰·格鲁伯（英语：John Gruber）创建。&lt;/p&gt;
+
+&lt;p&gt;Markdown 编写的文档可以导出 HTML 、Word、图像、PDF、Epub 等多种格式的文档。&lt;/p&gt;
+
+&lt;p&gt;Markdown 编写的文档后缀为 .md, .markdown。&lt;/p&gt;
+
+&lt;h1 id=&quot;markdown-语法学习&quot;&gt;Markdown 语法学习&lt;/h1&gt;
+
+&lt;h2 id=&quot;markdown-标题&quot;&gt;Markdown 标题&lt;/h2&gt;
+
+&lt;p&gt;Markdown 标题有两种格式。&lt;/p&gt;
+
+&lt;p&gt;1、使用 = 和 - 标记一级和二级标题
+= 和 - 标记语法格式如下：&lt;/p&gt;
+
+&lt;h1 id=&quot;我展示的是一级标题&quot;&gt;我展示的是一级标题&lt;/h1&gt;
+
+&lt;h2 id=&quot;我展示的是二级标题&quot;&gt;我展示的是二级标题&lt;/h2&gt;
+
+&lt;h2 id=&quot;markdown-段落格式&quot;&gt;Markdown 段落格式&lt;/h2&gt;
+
+&lt;p&gt;Markdown 段落没有特殊的格式，直接编写文字就好，段落的换行是使用两个以上空格加上回车。&lt;/p&gt;
+
+&lt;p&gt;新的段落。&lt;/p&gt;
+
+&lt;h2 id=&quot;markdown-列表&quot;&gt;Markdown 列表&lt;/h2&gt;
+
+&lt;p&gt;Markdown 支持有序列表和无序列表。&lt;/p&gt;
+
+&lt;p&gt;无序列表使用星号(*)、加号(+)或是减号(-)作为列表标记，这些标记后面要添加一个空格，然后再填写内容：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;第一项&lt;/li&gt;
+  &lt;li&gt;第二项&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;第三项&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;第一项&lt;/li&gt;
+  &lt;li&gt;第二项&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;第三项&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;第一项&lt;/li&gt;
+  &lt;li&gt;第二项&lt;/li&gt;
+  &lt;li&gt;第三项&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;markdown-区块&quot;&gt;Markdown 区块&lt;/h2&gt;
+
+&lt;p&gt;Markdown 区块引用是在段落开头使用 &amp;gt; 符号 ，然后后面紧跟一个空格符号：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;区块引用
+菜鸟教程
+学的不仅是技术更是梦想&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;markdown-代码&quot;&gt;Markdown 代码&lt;/h2&gt;
+
+&lt;p&gt;如果是段落上的一个函数或片段的代码可以用反引号把它包起来（`），例如：&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;printf()&lt;/code&gt; 函数&lt;/p&gt;
+
+&lt;p&gt;代码区块
+代码区块使用 4 个空格或者一个制表符（Tab 键）。&lt;/p&gt;
+
+&lt;p&gt;你也可以用 ``` 包裹一段代码，并指定一种语言（也可以不指定）：&lt;/p&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;ready&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;alert&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;RUNOOB&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;kdown-链接&quot;&gt;kdown 链接&lt;/h2&gt;
+
+&lt;p&gt;链接使用方法如下：&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;链接地址&quot;&gt;链接名称&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;或者&lt;/p&gt;
+
+&lt;链接地址&gt;
+例如：
+
+这是一个链接 [百度](https://baidu.com)
+
+## Markdown 图片
+
+Markdown 图片语法格式如下：
+
+![alt 属性文本](图片地址)
+
+![alt 属性文本](图片地址 &quot;可选标题&quot;)
+开头一个感叹号 !
+接着一个方括号，里面放上图片的替代文字
+接着一个普通括号，里面放上图片的网址，最后还可以用引号包住并加上选择性的 'title' 属性的文字。
+使用实例：
+
+![RUNOOB 图标](https://www.baidu.com/img/PCtm_d9c8750bed0b3c7d089fa7d55720d6cf.png)
+
+## Markdown 表格
+
+Markdown 制作表格使用 | 来分隔不同的单元格，使用 - 来分隔表头和其他行。
+
+语法格式如下：
+
+|  表头   | 表头  |
+|  ----  | ----  |
+| 单元格  | 单元格 |
+| 单元格  | 单元格 |
+&lt;/链接地址&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">关于Markdown</summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="/jekyll/update/2021/04/07/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2021-04-07T13:04:47+08:00</published><updated>2021-04-07T13:04:47+08:00</updated><id>/jekyll/update/2021/04/07/welcome-to-jekyll</id><content type="html" xml:base="/jekyll/update/2021/04/07/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry></feed>
