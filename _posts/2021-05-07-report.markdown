@@ -1,0 +1,34 @@
+---
+layout: post
+title:  "write report"
+date:   2021-05-07 23:40:00 +0800
+categories: jekyll update
+---
+
+# 实验过程
+
+1. 在Windows10系统上安装WSL Ubuntu
+2. 然后安装VSCode编辑器，以及Remote-WSL插件，通过VSCode来打开WSL里面的github pages博客源代码仓库。
+3. 在GitHub pages博客源代码仓库 clone的本地文件夹内，操作Jekyll稳定上的几个步骤
+3.1 用命令jekyll new来生成一个新的jekyll blog。
+3.2 然后用 bundle install 来自动安装Gems依赖。
+3.3 用命令jekyll serve来运行jekyll本地服务器，从而可以浏览器访问本地地址 localhost:4000 来查看博客网站。
+4. 在VSCode中用Remote-WSL连接Ubuntu，再打开博客本地仓库目录。然后新建几个post，author，staff的markdown文件。
+5. 用命令 jekyll build 命令来编译markdown文件到 _site/ 目录。
+6. 在 WSL Ubuntu 中安装Nginx，然后配置Nginx的网站路径到 _site/ 目录，本地访问 localhost 来测试HTML文件。
+7. git添加本地仓库的所有变更的文件，然后git push到远程仓库。
+8. 打开github pages的公网网址，查看更新后的博客网站内容。
+
+# 实验报告总结
+
+问题1：安装WSL无法安装Ubuntu
+解决：需要在系统的程序和功能设置中开启WSL选项，然后重启就能安装Ubuntu了。
+
+问题2：VSCode不知道怎么打开WSL
+解决：在VSCode左边侧边栏由一个Remote远程栏，点开后，可以看到WSL Targets。选中Ubuntu右击，可以连接打开。
+
+问题3：jekyll如何新建post？
+解决：在vscode中打开本地仓库文件夹，然后再post目录下按照特定日期加标题的格式新建markdown文件。
+
+问题4：怎么在Windows系统里打开WSL Ubuntu里面的 localhost:4000 ?
+解决，直接在Windows里浏览器打开 localhost:4000 就能访问，WSL和Windows是共享网络虚拟网卡模式。
