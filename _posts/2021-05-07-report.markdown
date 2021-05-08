@@ -14,17 +14,17 @@ categories: jekyll update
 
 ## 一、网站目录结构
 
-![tree 网站目录结构](images/01_tree.png)
+![tree 网站目录结构](/images/01_tree.png)
 
 ## 二、网站截图
 
-![首页截图](images/02_homepage.png)
-![Blog列表页](images/03_blog_list.png)
-![两篇Post 1](images/04_blog_post_1.png)
-![两篇Post 2](images/05_blog_post_2.png)
-![Stuff列表页](images/06_stuff_page.png)
-![作者简介页面](images/07_author.png)
-![About页面](images/08_about.png)
+![首页截图](/images/02_homepage.png)
+![Blog列表页](/images/03_blog_list.png)
+![两篇Post 1](/images/04_blog_post_1.png)
+![两篇Post 2](/images/05_blog_post_2.png)
+![Stuff列表页](/images/06_stuff_page.png)
+![作者简介页面](/images/07_author.png)
+![About页面](/images/08_about.png)
 
 ## 三、实验过程
 
