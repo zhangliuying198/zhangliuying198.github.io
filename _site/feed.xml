@@ -1,4 +1,25 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.7">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-05-07T23:45:54+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">风华落雪燕无情</title><subtitle>你总是说世界上找不到知音，天涯不见归路，博客此处待佳人。</subtitle><entry><title type="html">write report</title><link href="http://localhost:4000/jekyll/update/2021/05/07/report.html" rel="alternate" type="text/html" title="write report" /><published>2021-05-07T23:40:00+08:00</published><updated>2021-05-07T23:40:00+08:00</updated><id>http://localhost:4000/jekyll/update/2021/05/07/report</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2021/05/07/report.html">&lt;h1 id=&quot;实验过程&quot;&gt;实验过程&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.7">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-05-08T12:45:34+08:00</updated><id>/feed.xml</id><title type="html">风华落雪燕无情</title><subtitle>你总是说世界上找不到知音，天涯不见归路，博客此处待佳人。</subtitle><entry><title type="html">write report</title><link href="/jekyll/update/2021/05/07/report.html" rel="alternate" type="text/html" title="write report" /><published>2021-05-07T23:40:00+08:00</published><updated>2021-05-07T23:40:00+08:00</updated><id>/jekyll/update/2021/05/07/report</id><content type="html" xml:base="/jekyll/update/2021/05/07/report.html">&lt;h1 id=&quot;web应用软件开发实训---第二次作业---开发一个静态网站&quot;&gt;WEB应用软件开发实训 - 第二次作业 - 开发一个静态网站&lt;/h1&gt;
+
+&lt;p&gt;公网网址：https://zhangliuying198.github.io/
+源代码网址：https://github.com/zhangliuying198/zhangliuying198.github.io&lt;/p&gt;
+
+&lt;p&gt;实验报告网址：https://zhangliuying198.github.io/2021/05/07/report.html&lt;/p&gt;
+
+&lt;h2 id=&quot;一网站目录结构&quot;&gt;一、网站目录结构&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;images/01 tree.png&quot; alt=&quot;tree 网站目录结构&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;二网站截图&quot;&gt;二、网站截图&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;images/02 首页.png&quot; alt=&quot;首页截图&quot; /&gt;
+&lt;img src=&quot;images/03 Blog列表页.png&quot; alt=&quot;Blog列表页&quot; /&gt;
+&lt;img src=&quot;images/04 Blog Post 1.png&quot; alt=&quot;两篇Post 1&quot; /&gt;
+&lt;img src=&quot;images/04 Blog Post 2.png&quot; alt=&quot;两篇Post 2&quot; /&gt;
+&lt;img src=&quot;images/06 Stuff列表页.png&quot; alt=&quot;Stuff列表页&quot; /&gt;
+&lt;img src=&quot;images/07 作者简介页.png&quot; alt=&quot;作者简介页面&quot; /&gt;
+&lt;img src=&quot;images/08 About页面.png&quot; alt=&quot;About页面&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;三实验过程&quot;&gt;三、实验过程&lt;/h2&gt;
 
 &lt;ol&gt;
   &lt;li&gt;在Windows10系统上安装WSL Ubuntu&lt;/li&gt;
@@ -14,7 +35,7 @@
   &lt;li&gt;打开github pages的公网网址，查看更新后的博客网站内容。&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;h1 id=&quot;实验报告总结&quot;&gt;实验报告总结&lt;/h1&gt;
+&lt;h2 id=&quot;四-实验报告总结&quot;&gt;四、 实验报告总结&lt;/h2&gt;
 
 &lt;p&gt;问题1：安装WSL无法安装Ubuntu
 解决：需要在系统的程序和功能设置中开启WSL选项，然后重启就能安装Ubuntu了。&lt;/p&gt;
@@ -26,7 +47,7 @@
 解决：在vscode中打开本地仓库文件夹，然后再post目录下按照特定日期加标题的格式新建markdown文件。&lt;/p&gt;
 
 &lt;p&gt;问题4：怎么在Windows系统里打开WSL Ubuntu里面的 localhost:4000 ?
-解决，直接在Windows里浏览器打开 localhost:4000 就能访问，WSL和Windows是共享网络虚拟网卡模式。&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">实验过程</summary></entry><entry><title type="html">learn Markdown!</title><link href="http://localhost:4000/jekyll/update/2021/05/07/learn-markdown.html" rel="alternate" type="text/html" title="learn Markdown!" /><published>2021-05-07T13:04:47+08:00</published><updated>2021-05-07T13:04:47+08:00</updated><id>http://localhost:4000/jekyll/update/2021/05/07/learn-markdown</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2021/05/07/learn-markdown.html">&lt;h1 id=&quot;关于markdown&quot;&gt;关于Markdown&lt;/h1&gt;
+解决，直接在Windows里浏览器打开 localhost:4000 就能访问，WSL和Windows是共享网络虚拟网卡模式。&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">WEB应用软件开发实训 - 第二次作业 - 开发一个静态网站</summary></entry><entry><title type="html">learn Markdown!</title><link href="/jekyll/update/2021/05/07/learn-markdown.html" rel="alternate" type="text/html" title="learn Markdown!" /><published>2021-05-07T13:04:47+08:00</published><updated>2021-05-07T13:04:47+08:00</updated><id>/jekyll/update/2021/05/07/learn-markdown</id><content type="html" xml:base="/jekyll/update/2021/05/07/learn-markdown.html">&lt;h1 id=&quot;关于markdown&quot;&gt;关于Markdown&lt;/h1&gt;
 
 &lt;p&gt;Markdown 是一种轻量级标记语言，它允许人们使用易读易写的纯文本格式编写文档。&lt;/p&gt;
 
@@ -140,7 +161,7 @@ Markdown 制作表格使用 | 来分隔不同的单元格，使用 - 来分隔�
 |  ----  | ----  |
 | 单元格  | 单元格 |
 | 单元格  | 单元格 |
-&lt;/链接地址&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">关于Markdown</summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2021/04/07/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2021-04-07T13:04:47+08:00</published><updated>2021-04-07T13:04:47+08:00</updated><id>http://localhost:4000/jekyll/update/2021/04/07/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2021/04/07/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+&lt;/链接地址&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">关于Markdown</summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="/jekyll/update/2021/04/07/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2021-04-07T13:04:47+08:00</published><updated>2021-04-07T13:04:47+08:00</updated><id>/jekyll/update/2021/04/07/welcome-to-jekyll</id><content type="html" xml:base="/jekyll/update/2021/04/07/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
 
 &lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
 
