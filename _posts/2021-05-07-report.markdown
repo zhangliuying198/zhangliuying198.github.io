@@ -5,7 +5,28 @@ date:   2021-05-07 23:40:00 +0800
 categories: jekyll update
 ---
 
-# 实验过程
+# WEB应用软件开发实训 - 第二次作业 - 开发一个静态网站
+
+公网网址：https://zhangliuying198.github.io/
+源代码网址：https://github.com/zhangliuying198/zhangliuying198.github.io
+
+实验报告网址：https://zhangliuying198.github.io/2021/05/07/report.html
+
+## 一、网站目录结构
+
+![tree 网站目录结构](images/01 tree.png)
+
+## 二、网站截图
+
+![首页截图](images/02 首页.png)
+![Blog列表页](images/03 Blog列表页.png)
+![两篇Post 1](images/04 Blog Post 1.png)
+![两篇Post 2](images/04 Blog Post 2.png)
+![Stuff列表页](images/06 Stuff列表页.png)
+![作者简介页面](images/07 作者简介页.png)
+![About页面](images/08 About页面.png)
+
+## 三、实验过程
 
 1. 在Windows10系统上安装WSL Ubuntu
 2. 然后安装VSCode编辑器，以及Remote-WSL插件，通过VSCode来打开WSL里面的github pages博客源代码仓库。
@@ -19,7 +40,7 @@ categories: jekyll update
 7. git添加本地仓库的所有变更的文件，然后git push到远程仓库。
 8. 打开github pages的公网网址，查看更新后的博客网站内容。
 
-# 实验报告总结
+## 四、 实验报告总结
 
 问题1：安装WSL无法安装Ubuntu
 解决：需要在系统的程序和功能设置中开启WSL选项，然后重启就能安装Ubuntu了。
