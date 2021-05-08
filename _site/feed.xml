@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.7">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-05-08T12:45:34+08:00</updated><id>/feed.xml</id><title type="html">风华落雪燕无情</title><subtitle>你总是说世界上找不到知音，天涯不见归路，博客此处待佳人。</subtitle><entry><title type="html">write report</title><link href="/jekyll/update/2021/05/07/report.html" rel="alternate" type="text/html" title="write report" /><published>2021-05-07T23:40:00+08:00</published><updated>2021-05-07T23:40:00+08:00</updated><id>/jekyll/update/2021/05/07/report</id><content type="html" xml:base="/jekyll/update/2021/05/07/report.html">&lt;h1 id=&quot;web应用软件开发实训---第二次作业---开发一个静态网站&quot;&gt;WEB应用软件开发实训 - 第二次作业 - 开发一个静态网站&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.7">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-05-08T12:50:19+08:00</updated><id>/feed.xml</id><title type="html">风华落雪燕无情</title><subtitle>你总是说世界上找不到知音，天涯不见归路，博客此处待佳人。</subtitle><entry><title type="html">write report</title><link href="/jekyll/update/2021/05/07/report.html" rel="alternate" type="text/html" title="write report" /><published>2021-05-07T23:40:00+08:00</published><updated>2021-05-07T23:40:00+08:00</updated><id>/jekyll/update/2021/05/07/report</id><content type="html" xml:base="/jekyll/update/2021/05/07/report.html">&lt;h1 id=&quot;web应用软件开发实训---第二次作业---开发一个静态网站&quot;&gt;WEB应用软件开发实训 - 第二次作业 - 开发一个静态网站&lt;/h1&gt;
 
 &lt;p&gt;公网网址：https://zhangliuying198.github.io/
 源代码网址：https://github.com/zhangliuying198/zhangliuying198.github.io&lt;/p&gt;
@@ -7,17 +7,17 @@
 
 &lt;h2 id=&quot;一网站目录结构&quot;&gt;一、网站目录结构&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&quot;images/01 tree.png&quot; alt=&quot;tree 网站目录结构&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;assets/images/01 tree.png&quot; alt=&quot;tree 网站目录结构&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;二网站截图&quot;&gt;二、网站截图&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&quot;images/02 首页.png&quot; alt=&quot;首页截图&quot; /&gt;
-&lt;img src=&quot;images/03 Blog列表页.png&quot; alt=&quot;Blog列表页&quot; /&gt;
-&lt;img src=&quot;images/04 Blog Post 1.png&quot; alt=&quot;两篇Post 1&quot; /&gt;
-&lt;img src=&quot;images/04 Blog Post 2.png&quot; alt=&quot;两篇Post 2&quot; /&gt;
-&lt;img src=&quot;images/06 Stuff列表页.png&quot; alt=&quot;Stuff列表页&quot; /&gt;
-&lt;img src=&quot;images/07 作者简介页.png&quot; alt=&quot;作者简介页面&quot; /&gt;
-&lt;img src=&quot;images/08 About页面.png&quot; alt=&quot;About页面&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;assets/images/02 首页.png&quot; alt=&quot;首页截图&quot; /&gt;
+&lt;img src=&quot;assets/images/03 Blog列表页.png&quot; alt=&quot;Blog列表页&quot; /&gt;
+&lt;img src=&quot;assets/images/04 Blog Post 1.png&quot; alt=&quot;两篇Post 1&quot; /&gt;
+&lt;img src=&quot;assets/images/04 Blog Post 2.png&quot; alt=&quot;两篇Post 2&quot; /&gt;
+&lt;img src=&quot;assets/images/06 Stuff列表页.png&quot; alt=&quot;Stuff列表页&quot; /&gt;
+&lt;img src=&quot;assets/images/07 作者简介页.png&quot; alt=&quot;作者简介页面&quot; /&gt;
+&lt;img src=&quot;assets/images/08 About页面.png&quot; alt=&quot;About页面&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;三实验过程&quot;&gt;三、实验过程&lt;/h2&gt;
 
